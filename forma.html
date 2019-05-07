@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Услуги</title>
+	<link rel="stylesheet" type="text/css" href="forma.css">
+	<!-- Подключаем Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+	<script type="text/javascript">
+		function link1()
+		{
+		location.href='https://bloggood.ru/';
+		}
+		</script>
+	<main class="main">
+
+		<div class="opac1">
+			<div style="margin-left: 20px; position: absolute; height: 300px;" class="glstudio">
+				<a href="mainpage.html" style="text-decoration: none; display: inline; color: #FFFFFF; " sty class="display-3">Gluhov</a>
+				<h1 style="display: inline; color: #808080; " sty class="display-3">Studio</h1>
+			</div>
+			<h1 style="position: absolute; margin-left: 23%; display: inline; color: white; " sty class="display-3">Запись</h1>
+			<div class="lilmain">
+				<div class="form-wrap">
+  <div class="profile">
+    <h4>Регистрация</h4>
+  </div>
+  <form method="post" action="form.php">
+    <div>
+      <label for="name">Имя</label>
+      <input type="text" name="name" required>
+    </div>
+    <div class="radio">
+      <span>Пол</span>
+      <label>
+        <input type="radio" name="sex" value="мужской">мужской
+        <div class="radio-control male"></div>
+      </label>
+      <label>
+        <input type="radio" name="sex" value="женский">женский
+        <div class="radio-control female"></div>
+      </label>
+    </div>
+    <div>
+      <label for="email">E-mail</label>
+      <input type="email" name="email" required>
+    </div>
+    <div>
+      <label for="country">Страна</label>
+      <select name="country">
+        <option>Выберите страну проживания</option>
+        <option value="Россия">Россия</option> 
+        <option value="Украина">Украина</option> 
+        <option value="Беларусь">Беларусь</option> 
+      </select> 
+      <div class="select-arrow"></div> 
+    </div> 
+    <button type="submit">Отправить</button> 
+  </form> 
+</div>
+			</div>
+		</div>
+	</main>
+</body>
+</html>
